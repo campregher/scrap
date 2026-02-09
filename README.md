@@ -26,6 +26,42 @@ pip install -r requirements.txt
 python run_all.py
 ```
 
+## Como rodar no VS Code
+
+1. Abra a pasta do projeto no VS Code (`Arquivo > Abrir Pasta`).
+2. Instale a extensão **Python** (Microsoft) se ainda não tiver.
+3. Abra um terminal integrado (`Terminal > Novo Terminal`) e crie o ambiente virtual:
+
+```bash
+python -m venv .venv
+```
+
+4. Ative o ambiente virtual:
+
+```bash
+source .venv/bin/activate
+```
+
+No Windows (PowerShell):
+
+```powershell
+.venv\\Scripts\\Activate.ps1
+```
+
+5. Selecione o interpretador Python do projeto:
+   - Pressione `Ctrl+Shift+P` → **Python: Select Interpreter** → escolha o `.venv`.
+6. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+7. Execute o projeto pelo terminal:
+
+```bash
+python run_all.py
+```
+
 Saídas:
 - `leads.csv` (UTF-8-SIG)
 - `leads.xlsx`
