@@ -1,0 +1,3 @@
+# Liste URLs publicas de lojas Shopee, uma por linha.
+# Exemplo:
+# https://shopee.com.br/nomedaloja
