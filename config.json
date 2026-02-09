@@ -1,0 +1,70 @@
+{
+  "nicho": "acessorios_automotivos",
+  "subnichos": {
+    "internos": [
+      "apoio de braço automotivo",
+      "descanso de braço carro",
+      "capa de banco automotivo",
+      "capa volante"
+    ],
+    "tapetes": [
+      "tapete automotivo",
+      "tapete carro pvc",
+      "tapete bordado automotivo",
+      "tapete automotivo personalizado"
+    ],
+    "externos": [
+      "protetor para-choque",
+      "protetor porta malas"
+    ],
+    "engates": [
+      "engate reboque",
+      "engate automotivo",
+      "bola engate",
+      "rabicho engate"
+    ],
+    "frisos": [
+      "friso lateral",
+      "friso cromado",
+      "friso adesivo automotivo"
+    ],
+    "capa_estepe": [
+      "capa de estepe",
+      "capa estepe ecosport",
+      "capa estepe crossfox"
+    ],
+    "apoio_braco": [
+      "apoio de braço console",
+      "apoio de braço automotivo"
+    ],
+    "calha_chuva": [
+      "calha de chuva",
+      "defletor de chuva",
+      "calha de chuva fumê",
+      "calha universal"
+    ]
+  },
+  "revenda_termos": [
+    "atacado",
+    "revenda",
+    "kit",
+    "combo",
+    "lote"
+  ],
+  "mercado_livre": {
+    "site_id": "MLB",
+    "results_limit": 50
+  },
+  "shopee": {
+    "seed_list_path": "data/shopee_seed_urls.txt",
+    "enable_search": false
+  },
+  "http": {
+    "timeout_sec": 15,
+    "min_delay_sec": 1.5,
+    "max_delay_sec": 3.5,
+    "max_retries": 3,
+    "respect_robots": true,
+    "user_agent": "LeadCollectorBot/1.0 (+https://example.com/contato)"
+  }
+}
